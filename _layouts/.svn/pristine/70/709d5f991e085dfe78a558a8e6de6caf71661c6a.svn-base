@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "fr-FR" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Open Data Days</h1>
+      <h1 class="project-tagline">3 jours pour créer de l'impact avec des données ouvertes</h2>
+      <h3>📆4 au 6 mars 2020  📍Marseille, World Trade Center (2 Rue Henri Barbusse, 13001 Marseille)</a></h3>
+
+        <a href="https://airtable.com/shrrM4CQkIkU8VARA" class="btn">S'inscrire</a>
+
+    </section>
+
+    <section class="main-content">
+      {{ content }}
+									
+    <footer class="site-footer">
+	    <p style="font-weight:bold"> A propos du projet Odeon</p>
+	    <p>Le cycle d’ateliers est organisé dans le cadre du projet européen « Open data for European open innovation » (ODEON), dont l’Avitem est partenaire. Le projet vise à améliorer la qualité et l’accès aux données ouvertes publiées par les institutions publiques et de soutenir la croissance et l’innovation des entreprises qui envisagent de créer de nouveaux produits ou services en exploitant ces données dans les domaines de l’environnement, la mer et l’industrie créative.</p>
+	    <p>Le projet implique 7 pays européens : Italie, Monténégro, Espagne, Croatie, Slovénie, Grèce, France). En savoir plus : https://odeon.interreg-med.eu/</p>
+            <img src="avitem logo.png" />
+	    </footer>
+    </section>
+
+  </body>
+</html>
