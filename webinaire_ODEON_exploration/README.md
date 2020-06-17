@@ -1,5 +1,44 @@
-## Webinaire #1 : 30 formats collaboratifs pour explorer les données (20/05/2020)
+## Webinaire #1 : 30 formats collaboratifs pour explorer les données
+
+> ### Panel
+> Charles Népote
+> ![](https://secure.gravatar.com/avatar/25834fadc780a93d292efa7a812adc48?s=800&d=identicon)
+>  *membre du conseil d'administration d'[OpenFoodfacts](https://fr.openfoodfacts.org/)*
+> :telephone_receiver: *Contact*  :fax:
+> ![twitter logo]()[@charlesnepote](https://twitter.com/charlesnepote)
+> ![linkedin logo]()[Charles Népote](https://www.linkedin.com/in/charlesnepote/)
+
+Et pour organiser et animer cet atelier :
+* Karim El Arnaouty (Avitem) ;
+* Samuel Goëta (Datactivist) ;
+* Sylvain Lapoix (Datactivist).
 
 ### La vidéo
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://aperi.tube/videos/embed/33c1d132-8d0b-40b8-8403-b4c9c9c42933" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://aperi.tube/videos/embed/7d2a8877-3262-4488-ad05-4697cfa10e2b" frameborder="0" allowfullscreen></iframe>
+  
+Licence :
+  
+### Le déroulé avec les timecodes
+  
+* 00'54" : présentation du projet ODEON par Karim
+* 06'40" : "30 formats collaboratifs pour explorer les données", présentation magistrale par Charles Népote
+* 48'10" : quelques méthodologies élaborées ou testées par Datactivist présentées par Samuel Goeta
+* 56'20" : séance de questions - réponses et de présentations d'autres méthodologies.
+
+
+### Le support
+
+Le support de la présentation "30 formats collaboratifs pour explorer les données" est disponible [sur Google Slides](http://frama.link/30frmt).
+
+
+### Les liens partagés
+* [Challenge data #2 : 115 étudiants mettent les données publiques au service de l’intérêt général](https://medium.com/datactivist/challenge-data-2-115-%C3%A9tudiants-mettent-les-donn%C3%A9es-publiques-au-service-de-lint%C3%A9r%C3%AAt-g%C3%A9n%C3%A9ral-f9e4b804d05c) sur [le Medium de Datactivist](https://medium.com/datactivist) ;
+   * [Guide d’organisation d’un sprint data](https://datactivist.coop/datavizchallenge/guide/docs/index.html), une méthodologie d'exploration des données expérimentée à l'occasion du Dataviz Challenge du 110 bis, laboratoire d'innovation du Ministère de l'éducation nationale, le 22 et 23 mars 2019 ;
+   * [easydataviz](http://easydataviz.co/), projet du designer colombien Jose Duarte, qui propose de nombreuses méthodologies de dataviz physiques ;
+   * [le manifeste pour un "Data Humanism"](http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold) publié dans PrintMag par la designeuse d'information Giorgia Lupi, à l'origine du projet de correspondance par visualisation de données [Dear Data](http://giorgialupi.com/dear-data) ;
+   * la page de l'[Infolab du Grand Poitiers](https://data.grandpoitiers.fr/pages/accueil/) qui organise événements et concours pour valoriser les données mises à disposition pour l'aggloméraiton ;
+   * la page du projet [PIAF](https://piaf.etalab.studio/actualites.html) (pour des IA francophones) où vous trouverez notamment [des projets d'annotation collaboratifs d'articles](https://piaf.etalab.studio/enseignements-contributions/) ;
+   * la page de l'outil [prodigy](https://prodi.gy/), élaboré par l'équipe de spaCy, pour déployer rapidement et efficacement des projets indépendants de machine learning et d'annotation ;
+* [Teachable machine](https://teachablemachine.withgoogle.com/), qui permet d'entraîner un ordinateur à la reconnaissance de schéma et d'introduire des publics non initiés à la notion de machine learning ;
+* [#tidytuesday](https://github.com/rfordatascience/tidytuesday), le rendez-vous hebdomadaire de la communauté `R for data science` pour explorer chaque semaine un jeu de données et confronter ses intuitions aux méthodes des autres dans le langage R ;
