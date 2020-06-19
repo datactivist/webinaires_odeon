@@ -11,8 +11,8 @@
 | **Charles Népote** |
 | *membre du Conseil d'administration d'[OpenFoodFacts](https://fr.openfoodfacts.org/), ex [Fing](https://fing.org/)* |
 | ![](https://media-exp1.licdn.com/dms/image/C4E03AQFlVzJAFO3Naw/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=iPtdcWsbvFYSjRcWzzsNUcivqWb_90LXoumMMvn4IXA) |
-| **sur Twitter** : [@charlesnepote](https://twitter.com/charlesnepote) |
-| **sur LinkedIn** : [Charles Népote](https://www.linkedin.com/in/charlesnepote/) |
+| *[@charlesnepote](https://twitter.com/charlesnepote) sur Twitter* |
+| *[Charles Népote](https://www.linkedin.com/in/charlesnepote/) sur LinkedIn* |
 
 --------------
 
