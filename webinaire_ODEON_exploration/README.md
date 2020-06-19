@@ -6,11 +6,13 @@
 ## Panel
 
 
-|  |
+| Expert |
 | :---: |
-| **Charles Népote**, </br> *membre du Conseil d'administration d'[OpenFoodFacts](https://fr.openfoodfacts.org/), ex [Fing](https://fing.org/)* |
+| **Charles Népote**,
+*membre du Conseil d'administration d'[OpenFoodFacts](https://fr.openfoodfacts.org/), ex [Fing](https://fing.org/)* |
 | ![](https://media-exp1.licdn.com/dms/image/C4E03AQFlVzJAFO3Naw/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=iPtdcWsbvFYSjRcWzzsNUcivqWb_90LXoumMMvn4IXA) |
-| **Contact** :</br> sur Twitter : [\@charlesnepote](https://twitter.com/charlesnepote) </br> sur LinkedIn : [Charles Népote](https://www.linkedin.com/in/charlesnepote/) |
+| **Contact** :
+sur Twitter : [@charlesnepote](https://twitter.com/charlesnepote)sur LinkedIn : [Charles Népote](https://www.linkedin.com/in/charlesnepote/) |
 
 --------------
 
