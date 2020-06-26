@@ -8,9 +8,11 @@
 |Myriad Ali|Jean-Marie Bourgogne|Alexandre Bulté|Pascale Vinot|
 |:---:|:---:|:---:|:---:|
 |responsable de l'ouverture des données chez transport.data.gouv.fr|délégué général d’OpenDataFrance|Directeur Technique Etalab|Responsable de projets Tourisme & numérique, DATAtourisme
-|![](https://media-exp1.licdn.com/dms/image/C4D03AQGUaM0wouFebg/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=K9u-2_V1EYv44uhhuE8EctT9sFLG1hNawtfiHK5wFR4)|![](https://media-exp1.licdn.com/dms/image/C4D03AQEm1QOtErFl5g/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=rBSnzmjinhMauVMeJg-DMGixV5b2ITZcrTKCK-BpHck)|![](https://media-exp1.licdn.com/dms/image/C4D03AQGNcTgCvZ7ajA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=ch35-FgmT3hRm12gQXOs_L2_x9dM0wvPNHmZ9-OpGl0)|![](https://media-exp1.licdn.com/dms/image/C5603AQEZgKgytWOdPw/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=Q1zt9q4TJcq93G7SUnfWYE1OA5XNTWdQDYn9Qn59UdM)|
-||[@opendata_fr](https://twitter.com/opendata_fr)|[@abulte](https://twitter.com/abulte)|[@pascalevinot](https://twitter.com/pascalevinot)|
+|![](./img/myriad_ali.jpeg)|![](./img/jeanmarie_bourgogne.jpeg)|![](./img/alexandre_bulte.jpeg)|![](./img/pascale_vinot.jpg)|
+|| [@opendata_fr](https://twitter.com/opendata_fr) | [@abulte](https://twitter.com/abulte) | [@pascalevinot](https://twitter.com/pascalevinot)|
 |[Myriad Ali](https://www.linkedin.com/in/miryad-ali/)|[Jean-Marie-Bourgogne](https://www.linkedin.com/in/jbourgogne/)|[Alexandre Bulté](https://www.linkedin.com/in/alexandrebulte/)|[Pascale Vinot](https://www.linkedin.com/in/alexandrebulte/Pascale Vinot)|
+
+
 
 --------------
 
@@ -29,11 +31,11 @@
 
 ### Les supports
 
-Tous les supports sont disponibles en format PDF dans le dossier "supports" du repo. Vous pouvez également les télécharger en suivant les liens suivants :
-* [*Le Point d’accès national aux données de transport*, Myriad Ali]() ;
-* [*Normaliser et contrôler les données*, Jean-Marie Bourgogne]() (également disponible en format [Google Presentation](https://docs.google.com/presentation/d/1FyGAzhGHyYfuAFCRTbgki-4yTLZbC_34Y74hTs7RwA8/edit)) ;
-* [*DATATourisme, l'information touristique en open data*, Pascale Vinot]()
-* [*schema.data.gouv.fr*, Alexandre Bulté]()
+Tous les supports sont disponibles en format PDF dans [le dossier "supports"](https://github.com/datactivist/webinaires_odeon/tree/master/webinaire_ODEON_standardisation/supports) du répertoire de ce webinaire. Vous pouvez également les télécharger en suivant les liens suivants :
+* [*Le Point d’accès national aux données de transport*, Myriad Ali](https://github.com/datactivist/webinaires_odeon/blob/master/webinaire_ODEON_standardisation/supports/presentation_transport_gdf.pdf) ;
+* [*Normaliser et contrôler les données*, Jean-Marie Bourgogne](https://github.com/datactivist/webinaires_odeon/blob/master/webinaire_ODEON_standardisation/supports/presentation_scdl_validata.pdf) (également disponible en format [Google Presentation](https://docs.google.com/presentation/d/1FyGAzhGHyYfuAFCRTbgki-4yTLZbC_34Y74hTs7RwA8/edit)) ;
+* [*DATATourisme, l'information touristique en open data*, Pascale Vinot](https://github.com/datactivist/webinaires_odeon/blob/master/webinaire_ODEON_standardisation/supports/presentation_datatourisme.pdf)
+* [*schema.data.gouv.fr*, Alexandre Bulté](https://github.com/datactivist/webinaires_odeon/blob/master/webinaire_ODEON_standardisation/supports/presentation_schema_dgf.pdf)
 
 ### Les liens partagés
 
