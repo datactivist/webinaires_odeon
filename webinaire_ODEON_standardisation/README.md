@@ -5,9 +5,9 @@
 ## Panel  
 
 
-|[Myriad Ali](https://www.linkedin.com/in/miryad-ali/)|[Jean-Marie-Bourgogne](https://www.linkedin.com/in/jbourgogne/)|[Alexandre Bulté](https://www.linkedin.com/in/alexandrebulte/)|[Pascale Vinot](https://www.linkedin.com/in/alexandrebulte/Pascale Vinot)|
-|:---|:---|:---|:---|
-|responsable de l'ouverture des données chez transport.data.gouv.fr|délégué général d’OpenDataFrance|Directeur Technique Etalab|Responsable de projets Tourisme & numérique, DATAtourisme
+|[Myriad Ali](https://www.linkedin.com/in/miryad-ali/)|[Jean-Marie Bourgogne](https://www.linkedin.com/in/jbourgogne/)|[Alexandre Bulté](https://www.linkedin.com/in/alexandrebulte/)|[Pascale Vinot](https://www.linkedin.com/in/alexandrebulte/Pascale Vinot)|
+|----------------|----------------|----------------|----------------|
+|responsable de l'ouverture des données chez transport.data.gouv.fr|délégué général d’OpenDataFrance|directeur Technique Etalab|responsable de projets Tourisme & numérique, DATAtourisme
 |![](./img/myriad_ali.jpeg)|![](./img/jeanmarie_bourgogne.jpeg)|![](./img/alexandre_bulte.jpeg)|![](./img/pascale_vinot.jpg)|
 || [@opendata_fr](https://twitter.com/opendata_fr) | [@abulte](https://twitter.com/abulte) | [@pascalevinot](https://twitter.com/pascalevinot)|
 
