@@ -1,0 +1,436 @@
+---
+title: "La science ouverte et l'open data dans la recherche"
+subtitle: "Pourquoi, comment, pour quels usages ?"
+author: "Antoine Blanchard, Datactivist"
+date: "18 décembre 2020"
+output:
+  SlidesDatactivist::moon_reader:
+    seal: false
+    anchor_sections: false
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: ["macros.js", "matomo.js", "https://platform.twitter.com/widgets.js"]
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+params:
+  event: ODEON
+  slug: webinaires_odeon
+  description: 
+  title: La science ouverte et l'open data dans la recherche
+  image: https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png
+  image_alt: le logo de Datactivist
+---
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+</style>
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><a href='https://datactivist.coop/'><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></a></div></center></span></div>")`
+
+---
+class: center
+# .red[La science ouverte et l'open data dans la recherche]
+## Pourquoi, comment, pour quels usages ?
+### Antoine Blanchard, Datactivist
+18 décembre 2020
+
+![:abs 60%, 20%, 70%](img/LOGO_FEDER_odeon-Fr.jpg)
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/",params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR />
+<BR />
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+---
+
+### [.red[Les multiples facettes]](https://books.openedition.org/cdf/5005?lang=fr) de l'open data
+
+![:abs 55%, 20%, 20%](img/facettes.png)
+
+---
+### Les chercheurs partageaient-ils des données avant les administrations ?
+
+--
+
+.center[.reduite2[![](img/Journal_des_sçavans_janvier_1665.jpg)]]
+
+.footnote[Source : Sieur de Hédouville (pseudonyme de Denis de Sallo), "De la comète", *Journal des sçavans*, 5 Janvier 1665]
+
+---
+
+class:center,inverse, middle
+### Définition de l'OCDE
+
+« les données de la recherche sont définies comme des enregistrements factuels (**chiffres**, textes, images et sons), qui sont utilisés comme sources principales pour la recherche scientifique et sont généralement reconnus par la communauté scientifique comme nécessaires pour valider les résultats de la recherche »
+
+.footnote[*Principes et lignes directrices pour l’accès aux données de la recherche financée sur fonds publics* (2007)]
+
+---
+## Quelques jalons historiques
+- 1933 : Ragnar Frisch, 1er numéro de la revue *Econometrica* : "in *Econometrica* the original raw data will, as a rule, be published, unless their volume is excessive. This is important in order to stimulate criticism, control, and further studies"
+
+- années 1970 : apparition du terme « open data » dans les accords signés par la NASA avec des pays partenaires en vue du partage de données satellites
+
+- 1982 : lancement de GenBank, dont le succès a reposé sur son ouverture, par opposition à ses concurrents
+
+- 1995 : rapport de la National Academy of Science intitulé _On the Full and Open Exchange of Scientific Data_
+
+- 1996 : partage des données du Human Genome Project sous 24h (principes des Bermudes)
+
+- 2009 : affaire du "Climategate"
+
+- mars 2020 : publication de l'article "Epidemiological data from the COVID-19 outbreak, real-time case information" dans la revue _Scientific Data_ ([lien](https://www.nature.com/articles/s41597-020-0448-0))
+
+.footnote[[Samuel Goeta (2016), “Instaurer des données, instaurer des publics : une enquête sociologique dans les coulisses de l'open data”, Télécom ParisTech](https://pastel.archives-ouvertes.fr/tel-01458098)]
+
+???
+
+Ragnar Anton Kittil Frisch (Oslo, 3 mars, 1895 - 31 janvier, 1973), économiste norvégien et lauréat du premier prix dit Nobel d'économie décerné en 1969, est l'un des pères de l'économétrie, et le fondateur de la revue *Econometrica*.
+
+"This was describing an epidemiological dataset about the spread of the virus, that was openly developed by researches working around the world in real-time as the pandemic was evolving. Researchers came from China, South America, the US, the UK and the rest of Europe to work on this, and it's still being updated continuously today. The editor tells me it was a unique challenge to peer review this article, as the dataset was changing minute by minute... but it really shows how the pandemic has brought international research groups together to collaborate and very quickly share data".
+__ [Closed countries, open data](https://www.researchinformation.info/feature/closed-countries-open-data)
+
+---
+
+class:center,inverse, middle
+
+# Pourquoi ouvrir les données de la recherche&nbsp;?
+
+---
+## Des raisons éthiques
+
+- norme de la communauté scientifique : "communalisme" (Merton)
+
+- "accountability" et transparence : la science ne peut pas rester supérieure, elle doit rendre des comptes
+
+- partage des ressources produites avec l'argent public
+
+- responsabilité déontologique du chercheur (National Research Council (2003), *Sharing Publication-Related Data and Materials: Responsibilities of Authorship in the Life Sciences*)
+
+---
+
+## L'affaire Climategate
+
+.pull-left[
+En 2009, mille courriels du Climate Research Unit (UK) sont piratés :
+- traitent certains climatologistes "sceptiques" avec irrespect
+- proposent le boycott d'une revue réputée publier de mauvais travaux 
+- décrivent une "astuce" permettant de "cacher la baisse"]
+
+.pull-right[
+![](img/Hockey_stick_chart_ipcc_large.jpg)]
+
+---
+
+## L'affaire Climategate
+### L'emballement est immédiat
+
+![:abs 28%, 3%, 30%](img/climategate_bunk.png)
+![:abs 32%, 35%, 45%](img/Fox_News.jpg)
+![:abs 30%, 69%, 30%](img/Express.jpg)
+
+---
+
+## L'affaire Climategate
+### Pourquoi avoir piraté les courriels ?
+
+Les chercheurs du CRU refusaient de partager leurs données et leurs algorithmes.
+
+L'argument utilisé : les données sont collectées de plusieurs sources étrangères (stations météo) et n'appartiennent pas aux chercheurs.
+
+---
+## L'affaire Climategate
+### Stupeur du côté des climatologues
+
+.reduite.center[![](img/Nature_editorial.png)]
+
+---
+
+## L'affaire Climategate
+### Une fois l'affaire tassée, comment ouvrir les données ?
+
+.reduite.center[![](img/Nature_news.png)]
+
+---
+
+## L'affaire Climategate
+### Enfin l'ouverture des données réclamées
+
+.reduite.center[![](img/Met_Office.png)]
+
+---
+
+## Des raisons légales et institutionnelles
+
+### À qui appartiennent les données de la recherche ?
+
+- au chercheur
+- à son employeur
+- à personne (domaine public)
+- ça dépend
+
+???
+
+Le terme de données étant vaste (documents d'archives, œuvres, informations), il est impossible de répondre.
+
+---
+
+## Des raisons légales et institutionnelles
+
+### À qui appartiennent les données expérimentales, d'observation, de simulation… en tableau de la recherche ?
+
+- au chercheur
+- à son employeur
+- à personne (domaine public)
+- ça dépend
+
+???
+- données expérimentales : obtenues à partir d'équipements de laboratoire (séquençage…)
+- données d'observation :  neuroimagerie, mesures physiques, reproduction photographique…
+- données de simulation : simulation météorologique, sismique, économique…
+
+Ces données ne sont  pas des « œuvres » couvertes par le droit d’auteur. Il peut y avoir un droit sui generis sur la base de données, droit dit de « producteur de base de données », qui appartient à l’entité qui a effectué des « investissements substantiels » rendant possible la base. Dans la plupart des hypothèses, ce seront donc les établissements de tutelle des chercheurs qui auront la qualité de « producteurs » et possèderont les droits attachés aux bases de données de recherche. 
+
+---
+
+## Des raisons légales et institutionnelles
+
+### En 2016, la Loi pour une république numérique crée-t-elle ?
+
+- un droit de réutiliser les données publiées
+- une obligation de diffuser les données
+- les deux
+- je ne sais pas
+
+???
+
+Les deux !
+
+La LRN prévoit la diffusion d'un écrit par son **auteur**, et l'ouverture par défaut des données administratives.
+
+---
+
+## Des raisons légales et institutionnelles
+
+- [Libre réutilisation des données publiées](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000033202841) :
+
+> Dès lors que les données **issues d'une activité de recherche financée au moins pour moitié par des dotations de l'Etat**, des collectivités territoriales, des établissements publics, des subventions d'agences de financement nationales ou par des fonds de l'Union européenne ne sont **pas protégées par un droit spécifique ou une réglementation particulière** et qu'elles ont été **rendues publiques** par le chercheur, l'établissement ou l'organisme de recherche, leur réutilisation est libre.
+
+- [Open data par défaut](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000033202965) :
+
+> **Les administrations (…) publient en ligne (…) les bases de données**, mises à jour de façon régulière, qu'elles produisent.
+
+[Cette interprétation a été endossée par le Ministère](https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf), à défaut de jurisprudence en la matière.
+
+???
+
+Le législateur permet ainsi aux chercheurs de lutter efficacement contre les tentatives de monopolisation des jeux de données par les éditeurs.
+
+Le droit du producteur de bases de données ne peut faire obstacle à la réutilisation du contenu des bases de données que ces administrations publient.
+
+Le cadre juridique est important mais je ne veux pas en faire l'alpha et l'oméga d'une politique sur les données de la recherche. Ainsi, la réutilisation libre ne dit rien des pratiques de citation chères à la communauté scientifique.
+
+---
+
+## Des raisons légales et institutionnelles
+
+### À l'origine de cette saisine CADA
+
+.reduite.center[![](img/MaDada.jpg)]
+
+---
+
+## Des raisons légales et institutionnelles
+
+.pull-left[
+- ambition politique du Ministère de l'enseignement supérieur, de la recherche et de l'innovation
+> Mesure 4 : Rendre obligatoire la diffusion ouverte des données de recherche issues de programmes financés par appels à projets sur fonds publics.
+- politiques d'établissement pour la gestion des données de la recherche (ex. : Cirad)]
+
+.pull-right[
+![](img/PNSO.jpg)]
+
+???
+
+Le PNSO rappelle le cadre légal.
+---
+class:center,inverse, middle
+## "Ouvert autant que possible, fermé autant que nécessaire"
+
+.footnote[[*Recommandation 2018/790](https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32018H0790&from=EN) de la Commission européenne du 25 avril 2018 relative à l'accès aux informations scientifiques et à leur conservation*]
+
+???
+
+"Les États membres devraient veiller à ce que les données de la recherche financée par des fonds publics deviennent et demeurent faciles à trouver,
+accessibles, interopérables et réutilisables (principes FAIR) dans un environnement sécurisé et fiable, par l'intermédiaire d'infrastructures numériques (y compris celles fédérées au sein du nuage européen pour la science ouverte, le cas échéant), **sauf si cela se révèle impossible ou incompatible avec la poursuite de l'exploitation des résultats de recherche («aussi ouvert que possible, mais aussi fermé que nécessaire»). Il peut y avoir plusieurs raisons à cela, dont notamment le respect de la vie privée, les secrets industriels, la sûreté nationale, les intérêts commerciaux légitimes et les droits de propriété intellectuelle détenus par des tiers**. Ces politiques ou plans d'action nationaux ne devraient pas avoir d'incidence sur les données, le savoir-faire et/ou les informations, quelle que soit leur forme ou leur nature, qui sont détenus par des acteurs privés participant à un partenariat public-privé avant les activités de recherche"
+
+---
+
+## Des raisons scientifiques
+
+La méthode scientifique évolue avec les données.
+
+- branche 1 (déductive) : mathématiques, logique
+
+- branche 2 (empirique) : analyse statistique, inductive, d'expériences avec groupe témoin
+
+- branche 3 (computationnelle) : simulation à grande échelle utilisant les données
+
+.footnote[Victoria Stodden (2010), "[The Digitization of Science and the Degradation of the Scientific Method](https://www.ischool.berkeley.edu/sites/default/files/VictoriaStoddenBIS2010.pdf)", UC Berkeley School of Information Dean's Lecture]
+
+???
+
+Débat "The end of theory" toujours pas tranché.
+---
+
+class:center,inverse, middle
+
+# Comment ouvrir les données de la recherche&nbsp;?
+
+---
+
+## Ce que le chercheur veut
+
+- exploiter ses données pour obtenir des résultats publiables
+
+Si il ou elle s'engage plus loin :
+
+- des métadonnées "good enough" via un effort d'indexation raisonnable, simple et rapide
+
+- si possible interopérabilité avec les instruments scientifiques, les cahiers de laboratoire… qui vont annoter de manière automatique
+
+- être cité pour ses données, et que ce soit pris en compte dans son évaluation
+
+- ne pas se faire doubler dans l'analyse de ses données
+
+???
+
+"Bien que très investies symboliquement par les chercheurs, les données semblent donc s’épuiser par le premier usage qu’ils en font (obtention des résultats) : la gestion des données n’est envisagée qu’à travers une vision à court terme."
+__ Philippe Amiel, Francesca Frontini, Pierre-Yves Lacour et Agnès Robin, « Pratiques de gestion des données de la recherche : une nécessaire acculturation des chercheurs aux enjeux de la science ouverte ? », Cahiers Droit, Sciences & Technologies [En ligne]. URL : http://journals.openedition.org/cdst/2061 ; DOI : https://doi.org/10.4000/cdst.2061
+
+---
+
+## Ce que le professionnel de l'information veut
+
+- des métadonnées riches et fines
+
+- un archivage pérenne avec identifiant unique
+
+- un vocabulaire standardisé
+
+---
+
+## Ce que l'utilisateur veut
+
+- pouvoir trouver et réutiliser facilement les données qui l'intéressent, y compris après quelques années
+
+&nbsp;
+&nbsp;
+
+.reduite3.center[![](img/FAIR_data_principles.jpg)]
+
+.footnote[CC BY-SA SangyaPundir]
+
+---
+class:center,inverse, middle
+
+# Pour quels usages ouvrir les données de la recherche&nbsp;?
+
+---
+## Des réutilisations académiques
+
+- recherche reproductible
+
+- équité vis-à-vis des pays du Sud (ex. : PubChem vs. Chemical Abstracts)
+
+- démultiplier les découvertes ("hypopublication", "undiscovered science")
+
+---
+## Des réutilisations pédagogiques
+
+&nbsp;
+&nbsp;
+
+.reduite3.center[![](img/Cell_Biology_Education.png)]
+
+---
+
+## Des réutilisations citoyennes
+
+> Par exemple, sollicité au sujet du projet **Wikidata**, le CNRS a répondu que les chercheurs avaient des droits d’auteurs sur leur contribution, or une telle réponse impliquerait de contacter un par un les 8 800 chercheurs du CNRS afin de pouvoir réutiliser leurs contributions. Lorsque ces mêmes chercheurs publient leurs données sous licence libre, dans PLOS par exemple, on est obligé de passer par un intermédiaire privé (une fondation) pour récupérer des données financées sur des fonds public…
+
+— Collectif (2012), « Open data en SHS », in *THATCamp Paris 2012*, Paris : Éditions de la Maison des Sciences de l'Homme, [http://editionsmsh.revues.org/364]()
+
+???
+
+En plus de l'exemple sur les données SARS-CoV2 citées précédemment.
+---
+
+## Des réutilisations industrielles…
+
+.center[![](img/NYT_Alzheimer.jpg)]
+
+---
+class:center,inverse, middle
+
+## "Barriers to effective data sharing and preservation are deeply rooted in the practices and culture of the research process as well as the researchers themselves."
+
+.footnote[Carol Tenopir _et al._  (2011), "[Data Sharing by Scientists: Practices and Perceptions](https://doi.org/10.1371/journal.pone.0021101)", _PLoS ONE_, 6(6), e21101]
+
+???
+
+C'est un sujet complexe, profondément culturel, et tous les efforts sont les bienvenus !
+
+---
+class: inverse, center, middle
+
+# Merci de votre attention
+
+Contact : [antoine@datactivist.coop](mailto:antoine@datactivist.coop)
+
+---
+class:center,inverse, middle
+# Table-ronde 
+
+### Jean-Christophe Desconnets, directeur de la Mission science ouverte à l’IRD
+
+### Cécile Pertuisot, gestionnaire de données océanographiques à l’Ifremer
+
+### Bénédicte Wenden, chargée de recherche à l’Inrae
