@@ -100,7 +100,7 @@ class:center,inverse, middle
 
 « les données de la recherche sont définies comme des enregistrements factuels (**chiffres**, textes, images et sons), qui sont utilisés comme sources principales pour la recherche scientifique et sont généralement reconnus par la communauté scientifique comme nécessaires pour valider les résultats de la recherche »
 
-.footnote[*Principes et lignes directrices pour l’accès aux données de la recherche financée sur fonds publics* (2007)]
+.footnote[[*Principes et lignes directrices pour l’accès aux données de la recherche financée sur fonds publics*](http://www.oecd.org/fr/science/inno/38500823.pdf) (2007)]
 
 ---
 ## Quelques jalons historiques
@@ -313,7 +313,7 @@ La méthode scientifique évolue avec les données.
 
 - branche 3 (computationnelle) : simulation à grande échelle utilisant les données
 
-.footnote[Victoria Stodden (2010), "[The Digitization of Science and the Degradation of the Scientific Method](https://www.ischool.berkeley.edu/sites/default/files/VictoriaStoddenBIS2010.pdf)", UC Berkeley School of Information Dean's Lecture]
+— Victoria Stodden (2010), "[The Digitization of Science and the Degradation of the Scientific Method](https://www.ischool.berkeley.edu/sites/default/files/VictoriaStoddenBIS2010.pdf)", UC Berkeley School of Information Dean's Lecture
 
 ???
 
@@ -343,7 +343,7 @@ Si il ou elle s'engage plus loin :
 ???
 
 "Bien que très investies symboliquement par les chercheurs, les données semblent donc s’épuiser par le premier usage qu’ils en font (obtention des résultats) : la gestion des données n’est envisagée qu’à travers une vision à court terme."
-__ Philippe Amiel, Francesca Frontini, Pierre-Yves Lacour et Agnès Robin, « Pratiques de gestion des données de la recherche : une nécessaire acculturation des chercheurs aux enjeux de la science ouverte ? », Cahiers Droit, Sciences & Technologies [En ligne]. URL : http://journals.openedition.org/cdst/2061 ; DOI : https://doi.org/10.4000/cdst.2061
+— Philippe Amiel, Francesca Frontini, Pierre-Yves Lacour et Agnès Robin, « Pratiques de gestion des données de la recherche : une nécessaire acculturation des chercheurs aux enjeux de la science ouverte ? », Cahiers Droit, Sciences & Technologies [En ligne]. URL : http://journals.openedition.org/cdst/2061 ; DOI : https://doi.org/10.4000/cdst.2061
 
 ---
 
