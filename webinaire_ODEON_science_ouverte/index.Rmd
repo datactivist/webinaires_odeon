@@ -89,7 +89,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 --
 
-.center[.reduite2[![](img/Journal_des_sçavans_janvier_1665.jpg)]]
+.center[.reduite2[![](img/Journal_des_scavans_janvier_1665.jpg)]]
 
 .footnote[Source : Sieur de Hédouville (pseudonyme de Denis de Sallo), "De la comète", *Journal des sçavans*, 5 Janvier 1665]
 
