@@ -67,9 +67,9 @@ class: center
 
 class: center, middle
 
-Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+Ces slides en ligne : [https://datactivist.coop/webinaires_odeon/webinaire_ODEON_science_ouverte]()
 
-Sources : `r paste0("https://github.com/datactivist/",params$slug)`
+Sources : [https://github.com/datactivist/webinaires_odeon/tree/master/webinaire_ODEON_science_ouverte]()
 
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
@@ -148,7 +148,7 @@ class:center,inverse, middle
 
 .pull-left[
 En 2009, mille courriels du Climate Research Unit (UK) sont piratés :
-- traitent certains climatologistes "sceptiques" avec irrespect
+- traitent certains climatologues "sceptiques" avec irrespect
 - proposent le boycott d'une revue réputée publier de mauvais travaux 
 - décrivent une "astuce" permettant de "cacher la baisse"]
 
@@ -200,7 +200,7 @@ L'argument utilisé : les données sont collectées de plusieurs sources étrang
 ### À qui appartiennent les données de la recherche ?
 
 - au chercheur
-- à son employeur
+- à l'employeur
 - à personne (domaine public)
 - ça dépend
 
@@ -212,7 +212,7 @@ Le terme de données étant vaste (documents d'archives, œuvres, informations),
 
 ## Des raisons légales et institutionnelles
 
-### À qui appartiennent les données expérimentales, d'observation, de simulation… des laboratoires publics ?
+### À qui appartiennent les données expérimentales, d'observation, de simulation… des laboratoires publics ?
 
 - au chercheur
 - à l'employeur
@@ -242,8 +242,6 @@ Ces données ne sont  pas des « œuvres » couvertes par le droit d’auteur. I
 
 Les deux !
 
-La LRN prévoit la diffusion d'un écrit par son **auteur**, et l'ouverture par défaut des données administratives.
-
 ---
 
 ## Des raisons légales et institutionnelles
@@ -264,8 +262,6 @@ Le législateur permet ainsi aux chercheurs de lutter efficacement contre les te
 
 Le droit du producteur de bases de données ne peut faire obstacle à la réutilisation du contenu des bases de données que ces administrations publient.
 
-Le cadre juridique est important mais je ne veux pas en faire l'alpha et l'oméga d'une politique sur les données de la recherche. Ainsi, la réutilisation libre ne dit rien des pratiques de citation chères à la communauté scientifique.
-
 ---
 
 ## Des raisons légales et institutionnelles
@@ -273,6 +269,9 @@ Le cadre juridique est important mais je ne veux pas en faire l'alpha et l'omég
 ### À l'origine de cette saisine CADA
 
 .reduite.center[![](img/MaDada.jpg)]
+
+???
+Le cadre juridique est important mais je ne veux pas en faire l'alpha et l'oméga d'une politique sur les données de la recherche. Ainsi, la réutilisation libre ne dit rien des pratiques de citation chères à la communauté scientifique.
 
 ---
 
@@ -375,11 +374,12 @@ class:center,inverse, middle
 ---
 ## Des réutilisations académiques
 
+- démultiplier les découvertes ("hypopublication", "undiscovered science")
+
 - recherche reproductible
 
 - équité vis-à-vis des pays du Sud (ex. : PubChem vs. Chemical Abstracts)
 
-- démultiplier les découvertes ("hypopublication", "undiscovered science")
 
 ---
 ## Des réutilisations pédagogiques
@@ -402,7 +402,7 @@ class:center,inverse, middle
 En plus de l'exemple sur les données SARS-CoV2 citées précédemment.
 ---
 
-## Des réutilisations industrielles…
+## Des réutilisations industrielles
 
 .center[![](img/NYT_Alzheimer.jpg)]
 
