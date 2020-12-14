@@ -132,6 +132,23 @@ class:center,inverse, middle
 # Pourquoi ouvrir les données de la recherche&nbsp;?
 
 ---
+## Des raisons scientifiques
+
+La méthode scientifique évolue avec les données :
+
+- branche 1 (déductive) : mathématiques, logique
+
+- branche 2 (empirique) : analyse statistique, inductive, d'expériences avec groupe témoin
+
+- branche 3 (computationnelle) : simulation à grande échelle utilisant les données
+
+— Victoria Stodden (2010), "[The Digitization of Science and the Degradation of the Scientific Method](https://www.ischool.berkeley.edu/sites/default/files/VictoriaStoddenBIS2010.pdf)", UC Berkeley School of Information Dean's Lecture
+
+???
+
+Débat "The end of theory" toujours pas tranché.
+
+---
 ## Des raisons éthiques
 
 - norme de la communauté scientifique : "communalisme" (Merton)
@@ -143,61 +160,17 @@ class:center,inverse, middle
 - responsabilité déontologique du chercheur (National Research Council (2003), *Sharing Publication-Related Data and Materials: Responsibilities of Authorship in the Life Sciences*)
 
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.duplicate.label = 'allow')
+```
 
-## L'affaire Climategate
-
-.pull-left[
-En 2009, mille courriels du Climate Research Unit (UK) sont piratés :
-- traitent certains climatologues "sceptiques" avec irrespect
-- proposent le boycott d'une revue réputée publier de mauvais travaux 
-- décrivent une "astuce" permettant de "cacher la baisse"]
-
-.pull-right[
-![](img/Hockey_stick_chart_ipcc_large.jpg)]
-
+```{r child='Climategate.Rmd'}
+```
 ---
-
-## L'affaire Climategate
-### L'emballement est immédiat
-
-![:abs 28%, 3%, 30%](img/climategate_bunk.png)
-![:abs 32%, 35%, 45%](img/Fox_News.jpg)
-![:abs 30%, 69%, 30%](img/Express.jpg)
-
----
-
-## L'affaire Climategate
-### Pourquoi avoir piraté les courriels ?
-
-Les chercheurs du CRU refusaient de partager leurs données et leurs algorithmes.
-
-L'argument utilisé : les données sont collectées de plusieurs sources étrangères (stations météo) et n'appartiennent pas aux chercheurs.
-
----
-## L'affaire Climategate
-### Stupeur du côté des climatologues
-
-.reduite.center[![](img/Nature_editorial.png)]
-
----
-
-## L'affaire Climategate
-### Une fois l'affaire tassée, comment ouvrir les données ?
-
-.reduite.center[![](img/Nature_news.png)]
-
----
-
-## L'affaire Climategate
-### Enfin l'ouverture des données réclamées
-
-.reduite.center[![](img/Met_Office.png)]
-
----
-
 ## Des raisons légales et institutionnelles
 
-### À qui appartiennent les données de la recherche ?
+### À qui appartiennent les données de la recherche des laboratoires publics ?
 
 - au chercheur
 - à l'employeur
@@ -301,23 +274,6 @@ accessibles, interopérables et réutilisables (principes FAIR) dans un environn
 
 ---
 
-## Des raisons scientifiques
-
-La méthode scientifique évolue avec les données :
-
-- branche 1 (déductive) : mathématiques, logique
-
-- branche 2 (empirique) : analyse statistique, inductive, d'expériences avec groupe témoin
-
-- branche 3 (computationnelle) : simulation à grande échelle utilisant les données
-
-— Victoria Stodden (2010), "[The Digitization of Science and the Degradation of the Scientific Method](https://www.ischool.berkeley.edu/sites/default/files/VictoriaStoddenBIS2010.pdf)", UC Berkeley School of Information Dean's Lecture
-
-???
-
-Débat "The end of theory" toujours pas tranché.
----
-
 class:center,inverse, middle
 
 # Comment ouvrir les données de la recherche&nbsp;?
@@ -393,7 +349,7 @@ class:center,inverse, middle
 
 ## Des réutilisations citoyennes
 
-> Par exemple, sollicité au sujet du projet **Wikidata**, le CNRS a répondu que les chercheurs avaient des droits d’auteurs sur leur contribution, or une telle réponse impliquerait de contacter un par un les 8 800 chercheurs du CNRS afin de pouvoir réutiliser leurs contributions. Lorsque ces mêmes chercheurs publient leurs données sous licence libre, dans PLOS par exemple, on est obligé de passer par un intermédiaire privé (une fondation) pour récupérer des données financées sur des fonds public…
+> Par exemple, sollicité au sujet du projet **Wikidata**, le CNRS a répondu que les chercheurs avaient des droits d’auteurs sur leur contribution, or une telle réponse impliquerait de contacter un par un les 8 800 chercheurs du CNRS afin de pouvoir réutiliser leurs contributions. Lorsque ces mêmes chercheurs publient leurs données sous licence libre, dans PLOS par exemple, on est obligé de passer par un intermédiaire privé (une fondation) pour récupérer des données financées sur des fonds public…
 
 — Collectif (2012), « Open data en SHS », in *THATCamp Paris 2012*, Paris : Éditions de la Maison des Sciences de l'Homme, [http://editionsmsh.revues.org/364]()
 
