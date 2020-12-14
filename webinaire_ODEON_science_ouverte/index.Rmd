@@ -94,15 +94,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 .footnote[Source : Sieur de Hédouville (pseudonyme de Denis de Sallo), "De la comète", *Journal des sçavans*, 5 Janvier 1665]
 
 ---
-
-class:center,inverse, middle
-### Définition de l'OCDE
-
-« les données de la recherche sont définies comme des enregistrements factuels (**chiffres**, textes, images et sons), qui sont utilisés comme sources principales pour la recherche scientifique et sont généralement reconnus par la communauté scientifique comme nécessaires pour valider les résultats de la recherche »
-
-.footnote[[*Principes et lignes directrices pour l’accès aux données de la recherche financée sur fonds publics*](http://www.oecd.org/fr/science/inno/38500823.pdf) (2007)]
-
----
 ## Quelques jalons historiques
 - 1933 : Ragnar Frisch, 1er numéro de la revue *Econometrica* : "in *Econometrica* the original raw data will, as a rule, be published, unless their volume is excessive. This is important in order to stimulate criticism, control, and further studies"
 
@@ -128,7 +119,14 @@ Ragnar Anton Kittil Frisch (Oslo, 3 mars, 1895 - 31 janvier, 1973), économiste 
 __ [Closed countries, open data](https://www.researchinformation.info/feature/closed-countries-open-data)
 
 ---
+class:center,inverse, middle
+### Définition de l'OCDE
 
+« les données de la recherche sont définies comme des enregistrements factuels (**chiffres**, textes, images et sons), qui sont utilisés comme sources principales pour la recherche scientifique et sont généralement reconnus par la communauté scientifique comme nécessaires pour valider les résultats de la recherche »
+
+.footnote[[*Principes et lignes directrices pour l’accès aux données de la recherche financée sur fonds publics*](http://www.oecd.org/fr/science/inno/38500823.pdf) (2007)]
+
+---
 class:center,inverse, middle
 
 # Pourquoi ouvrir les données de la recherche&nbsp;?
@@ -214,14 +212,15 @@ Le terme de données étant vaste (documents d'archives, œuvres, informations),
 
 ## Des raisons légales et institutionnelles
 
-### À qui appartiennent les données expérimentales, d'observation, de simulation… en tableau de la recherche ?
+### À qui appartiennent les données expérimentales, d'observation, de simulation… des laboratoires publics ?
 
 - au chercheur
-- à son employeur
+- à l'employeur
 - à personne (domaine public)
 - ça dépend
 
 ???
+
 - données expérimentales : obtenues à partir d'équipements de laboratoire (séquençage…)
 - données d'observation :  neuroimagerie, mesures physiques, reproduction photographique…
 - données de simulation : simulation météorologique, sismique, économique…
@@ -305,7 +304,7 @@ accessibles, interopérables et réutilisables (principes FAIR) dans un environn
 
 ## Des raisons scientifiques
 
-La méthode scientifique évolue avec les données.
+La méthode scientifique évolue avec les données :
 
 - branche 1 (déductive) : mathématiques, logique
 
