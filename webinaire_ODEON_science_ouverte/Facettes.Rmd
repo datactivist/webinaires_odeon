@@ -13,3 +13,5 @@ options(knitr.duplicate.label = 'allow')
 ### [.red[Les multiples facettes]](https://books.openedition.org/cdf/5005?lang=fr) de l'open data
 
 ![:abs 55%, 20%, 20%](img/facettes.png)
+
+---
