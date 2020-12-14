@@ -79,11 +79,13 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.duplicate.label = 'allow')
+```
 
-### [.red[Les multiples facettes]](https://books.openedition.org/cdf/5005?lang=fr) de l'open data
-
-![:abs 55%, 20%, 20%](img/facettes.png)
-
+```{r child='Facettes.Rmd'}
+```
 ---
 ### Les chercheurs partageaient-ils des données avant les administrations ?
 
@@ -157,13 +159,12 @@ Débat "The end of theory" toujours pas tranché.
 
 - partage des ressources produites avec l'argent public
 
-- responsabilité déontologique du chercheur (National Research Council (2003), *Sharing Publication-Related Data and Materials: Responsibilities of Authorship in the Life Sciences*)
+- responsabilité déontologique du chercheur (National Research Council (2003), *Sharing Publication-Related Data and Materials: Responsibilities of Authorship in the Life Sciences*, Washington, DC: The National Academies Press)
+
+???
+
 
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-options(knitr.duplicate.label = 'allow')
-```
 
 ```{r child='Climategate.Rmd'}
 ```

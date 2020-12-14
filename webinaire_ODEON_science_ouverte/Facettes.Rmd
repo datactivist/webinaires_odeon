@@ -1,0 +1,15 @@
+---
+title: "Facettes"
+author: "Antoine Blanchard"
+date: "12/14/2020"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.duplicate.label = 'allow')
+```
+
+
+### [.red[Les multiples facettes]](https://books.openedition.org/cdf/5005?lang=fr) de l'open data
+
+![:abs 55%, 20%, 20%](img/facettes.png)
