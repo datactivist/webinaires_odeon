@@ -97,19 +97,21 @@ options(knitr.duplicate.label = 'allow')
 
 ---
 ## Quelques jalons historiques
-- 1933 : Ragnar Frisch, 1er numéro de la revue *Econometrica* : "in *Econometrica* the original raw data will, as a rule, be published, unless their volume is excessive. This is important in order to stimulate criticism, control, and further studies"
+- 1933 : Ragnar Frisch : "in *Econometrica* the original raw data will, as a rule, be published, unless their volume is excessive. This is important in order to stimulate criticism, control, and further studies"
 
 - années 1970 : apparition du terme « open data » dans les accords signés par la NASA avec des pays partenaires en vue du partage de données satellites
 
-- 1982 : lancement de GenBank, dont le succès a reposé sur son ouverture, par opposition à ses concurrents
+- 1982 : lancement de Genbank, dont le succès a reposé sur son ouverture, par opposition à ses concurrents
 
 - 1995 : rapport de la National Academy of Science intitulé _On the Full and Open Exchange of Scientific Data_
 
 - 1996 : partage des données du Human Genome Project sous 24h (principes des Bermudes)
 
+- 2003 : _Déclaration de Berlin sur le libre accès à la connaissance_ ([lien](https://openaccess.mpg.de/68042/BerlinDeclaration_wsis_fr.pdf))
+
 - 2009 : affaire du "Climategate"
 
-- mars 2020 : publication de l'article "Epidemiological data from the COVID-19 outbreak, real-time case information" dans la revue _Scientific Data_ ([lien](https://www.nature.com/articles/s41597-020-0448-0))
+- mars 2020 : article "Epidemiological data from the COVID-19 outbreak, real-time case information" ([lien](https://www.nature.com/articles/s41597-020-0448-0))
 
 .footnote[[Samuel Goeta (2016), “Instaurer des données, instaurer des publics : une enquête sociologique dans les coulisses de l'open data”, Télécom ParisTech](https://pastel.archives-ouvertes.fr/tel-01458098)]
 
@@ -254,7 +256,8 @@ Le cadre juridique est important mais je ne veux pas en faire l'alpha et l'omég
 .pull-left[
 - ambition politique du Ministère de l'enseignement supérieur, de la recherche et de l'innovation
 > Mesure 4 : Rendre obligatoire la diffusion ouverte des données de recherche issues de programmes financés par appels à projets sur fonds publics.
-- politiques d'établissement pour la gestion des données de la recherche (ex. : Cirad)]
+- politiques d'établissement pour la gestion des données de la recherche (ex. : Cirad)
+- Déclaration de Berlin (2003) sur le libre accès aux "données brutes" (ex. : CNRS)]
 
 .pull-right[
 ![](img/PNSO.jpg)]
@@ -344,7 +347,7 @@ class:center,inverse, middle
 &nbsp;
 &nbsp;
 
-.reduite3.center[![](img/Cell_Biology_Education.png)]
+.reduite.center[![](img/Cell_Biology_Education.png)]
 
 ---
 
@@ -361,7 +364,7 @@ En plus de l'exemple sur les données SARS-CoV2 citées précédemment.
 
 ## Des réutilisations industrielles
 
-.center[![](img/NYT_Alzheimer.jpg)]
+.reduite.center[![](img/NYT_Alzheimer.jpg)]
 
 ---
 class:center,inverse, middle
