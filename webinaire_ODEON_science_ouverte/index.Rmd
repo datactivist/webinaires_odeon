@@ -335,12 +335,7 @@ Si il ou elle s'engage plus loin :
 
 - pouvoir trouver et réutiliser facilement les données qui l'intéressent, y compris après quelques années
 
-&nbsp;
-&nbsp;
-
-.reduite3.center[![](img/FAIR_data_principles.jpg)]
-
-.footnote[CC BY-SA SangyaPundir]
+<iframe frameborder="0" width="750px" height="420px" style="position: fixed; top: 220px; left: 260px;" src="https://view.genial.ly/5d64fbbd8352350fa3d22603" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
 
 ---
 class:center,inverse, middle
